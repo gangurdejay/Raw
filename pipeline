@@ -12,7 +12,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Build steps
-                sh 'mvn clean install' // Example Maven build command
+                sh 'yum install mvn' // Example Maven build command
             }
         }
         stage('Test') {
