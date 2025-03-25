@@ -31,7 +31,7 @@ pipeline {
         }
         failure {
             // Actions to perform after failed build
-            echo 'Build failed'
+            echo 'Build '
         }
     }
 }
